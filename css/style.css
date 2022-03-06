@@ -194,6 +194,28 @@ nav{
   font-size: 13px;
 }
 
+.vid-list .vid-button-course {
+  float: right;
+  align-items: button;
+}
+
+.vid-list .div-description-course p{
+  color: #5a5a5a;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.vid-list .vid-button-course button{
+  background: green;
+  color: #fff;
+  padding: 8px 30px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
 .vid-info a{
   color: #000;
   font-weight: 600;
@@ -201,6 +223,61 @@ nav{
   margin-bottom: 5px;
 }
 
+.vid-list .wrapper .button{
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 4px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0, 1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.vid-list .wrapper .button .icon{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  line-height: 30px;
+  text-align: center;
+  transition: all 0.3s ease-out;
+}
+
+.vid-list .wrapper .button .icon i{
+  font-size:  14px;
+  line-height: 30px;
+}
+
+.vid-list .wrapper .button span{
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-left: 10px
+}
+
+.vid-list .wrapper .button:hover{
+  width: 100px;
+}
+
+.vid-list .wrapper .button:nth-child(1):hover .icon{
+  background: blue;
+}
+
+.vid-list .wrapper .button:nth-child(1):hover .icon{
+  color: #fff;
+}
+
+.vid-list .wrapper .button:nth-child(2):hover .icon {
+  background: blue;
+}
+
+.vid-list .wrapper .button:nth-child(2):hover .icon {
+  color: #fff;
+}
 @media (max-width: 900px){
   .menu-icon{
     display: none;
